@@ -45,11 +45,9 @@ ul {
   color: white;
   height: 80px;
   text-align: center;
-}
-.footer > p {
-  text-align: center;
   padding: 10px;
 }
+
 a {
   text-decoration: none;
 }
