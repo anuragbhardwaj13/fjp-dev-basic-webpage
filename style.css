@@ -31,6 +31,7 @@ ul {
 }
 .skills {
   display: flex;
+
   text-align: center;
 }
 .skills > div {
@@ -57,4 +58,12 @@ a:link,
 }
 a:hover {
   color: cadetblue;
+}
+@media only screen and (max-width: 600px) {
+  ul {
+    flex-wrap: wrap;
+  }
+  .skills {
+    flex-wrap: wrap;
+  }
 }
